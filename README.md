@@ -19,4 +19,23 @@ Calculating and using Cubic Bezier curves in Python is straightforward. Librarie
 - **Metamorphosis Curves:** Cubic Bezier curves are useful for creating smooth transitions between different shapes.
 - **Backtracking Curves:** By altering control points, backtracking curves can be generated, which are useful for creating smooth animations.
 
+## Running the Python Code
+
+To run the provided Python scripts and examples, follow these steps:
+
+1. Ensure you have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/).
+
+2. Install the required libraries. You can install them using pip, Python's package manager. For example:
+    ```
+    pip install numpy matplotlib
+    ```
+
+3. Clone or download this repository to your local machine.
+
+4. Navigate to the directory containing the Python scripts.
+
+5. Run the desired script using Python. For example:
+    ```
+    python draw_cubic_bezier_curve.py
+    ```
 This repository contains examples and implementations of Cubic Bezier curves in Python, along with applications in various fields like computer graphics, animation, and design. Explore the provided scripts and examples to understand how Cubic Bezier curves can be effectively utilized in your projects.
