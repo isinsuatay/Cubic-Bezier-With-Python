@@ -1,0 +1,23 @@
+Cubic Bezier Curves: What are they?
+
+Cubic Bezier curves are smooth curves widely used in computer graphics and graphic design. Mathematically, a Cubic Bezier curve is defined through four control points and expressed by a third-degree polynomial. This curve is defined by two control points (P1 and P2) between the starting and ending points (P0 and P3).
+
+The equation of a Cubic Bezier curve is as follows:
+
+B(t) = (1-t)^3 * P0 + 3*(1-t)^2t * P1 + 3(1-t)*t^2 * P2 + t^3 * P3
+
+Here, the parameter t varies between 0 and 1, representing any point on the curve. P0 and P3 represent the starting and ending points of the curve, while P1 and P2 represent the control points shaping the curve.
+
+Relation between Python and Cubic Bezier:
+
+Calculating and using Cubic Bezier curves in Python is quite straightforward. Libraries used for mathematical calculations like numpy can be employed to create and manipulate Cubic Bezier curves. These libraries can easily perform the necessary mathematical operations required to construct Cubic Bezier curves.
+
+Furthermore, Python's graphic libraries such as matplotlib, PyQtGraph, Plotly, among others, can be utilized to draw and visualize Cubic Bezier curves. These libraries provide convenient tools and functions for drawing Cubic Bezier curves.
+
+Creating Circular Trajectory: Four control points can be used to create a circular trajectory. Parametric equations of circular motion can be employed to calculate these control points.
+
+Creating Spline Curves: Spline curves are connected piecewise curves often used to create a smooth curve. Bezier curves can be used to create spline curves.
+
+Metamorphosis Curves: They can be used to create a smooth transition between two different shapes. For instance, we can create a curve gradually transforming a circle into a square.
+
+Backtracking Curves: By altering the control points while creating a curve between the starting and ending points, backtracking curves can be generated. This can be used to create a smooth animation.
